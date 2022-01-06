@@ -6,13 +6,14 @@
 
 (define (draw)
   (background 180)
-  (stroke-weight 1)
-  (ellipse 75 60 90 90)
-  (stroke-weight 8)
-  (ellipse 175 60 90 90)
-  (ellipse 279 60 90 90)
-  (stroke-weight 20)
-  (ellipse 389 60 90 90)
+  (stroke-weight 24)
+  (line 60 25 130 95)
+  (stroke-cap 'square)
+  (line 160 25 230 95)
+  (stroke-cap 'project)
+  (line 260 25 330 95)
+  (stroke-cap 'round)
+  (line 360 25 430 95)
   )
 
 
