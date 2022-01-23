@@ -4,7 +4,6 @@
   (smoothing 'smoothed)
   (background 200)
   (no-loop)
-  (no-stroke)
   )
 
 (define (draw)
