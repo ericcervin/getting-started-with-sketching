@@ -1,0 +1,43 @@
+#lang sketching
+(define (setup)
+  (size 480 120)
+  (smoothing 'smoothed)
+  (background 200)
+  (no-loop)
+  )
+
+(define (draw)
+    ;Left Creature
+    (fill 153 176 180)
+    (begin-shape)
+    (vertex 50 120)
+    (vertex 100 90)
+    (vertex 110 60)
+    (vertex 80 20)
+    (vertex 210 60)
+    (vertex 160 80)
+    (vertex 200 90)
+    (vertex 140 100)
+    (vertex 130 120)
+    (end-shape 'close)
+    (fill 0)
+    (ellipse 155 60 8 8)
+
+     ;Right Creature
+    (fill 176 186 163)
+    (begin-shape)
+    (vertex 370 120)
+    (vertex 360 90)
+    (vertex 290 80)
+    (vertex 340 70)
+    (vertex 280 50)
+    (vertex 420 10)
+    (vertex 390 50)
+    (vertex 410 90)
+    (vertex 460 120)
+    (end-shape)
+    (fill 0)
+    (ellipse 345 50 10 10)
+  )
+
+  
