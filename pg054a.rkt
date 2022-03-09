@@ -9,7 +9,6 @@
   )
 
 (define (draw)
-    ;racket's maximum pen size is 255
-   (stroke-weight (constrain (dist mouse-x mouse-y pmouse-x pmouse-y) 0 255))
+   (stroke-weight (dist mouse-x mouse-y pmouse-x pmouse-y))
    (line mouse-x mouse-y pmouse-x pmouse-y)
 )
