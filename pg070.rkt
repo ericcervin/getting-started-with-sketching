@@ -10,8 +10,8 @@
 
 (define (update-state)
   (when key-pressed
-    (when  (equal? key 'right)   (set! s (state (add1 (state-x s)))))
-    (when  (equal? key 'left)    (set! s (state (sub1 (state-x s)))))
+    (when  (equal? key 'right)   (:= s.x (add1 s.x)))
+    (when  (equal? key 'left)    (:= s.x (sub1 s.x)))
     )
 )
 
