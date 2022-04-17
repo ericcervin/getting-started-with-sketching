@@ -16,17 +16,3 @@
     (define mx (+ 60 (/ mouse-x 2)))
     (line mx 0 mx (height)) ;;Black line
   )
-
-#|
-        
-                                
-(defn draw [state]
-  (let [mx (+ 60 (/ (q/mouse-x) 2))]
-    (q/background 204)
-    (q/stroke 102)
-    (q/line (q/mouse-x) 0 (q/mouse-x) (q/height));;Grayline;
-    (q/stroke 0)
-    (q/line mx 0 mx (q/height))));;Blackline
-  
-    
-|#
