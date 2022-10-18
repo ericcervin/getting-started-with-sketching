@@ -1,5 +1,3 @@
-;;as of Oct 17, 2022, Sketching has an issue rotating before translating
-
 #lang sketching
 (define (setup)
   (size 240 240)
